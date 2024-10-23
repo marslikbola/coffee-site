@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+
+header{
+padding: 40px 0;
+background: #F3D7B7;
+}
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+ul li a{
+text-decoration: none;
+color: black;
+font-weight: 700px;
+}
+
+
+.hero{
+    padding: 90px;
+    background:#F3D7B7 ;
+    height: 620px;
+}
+
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+}
+
+.hero-text{
+    width: 464px;
+}
+
+.hero-text p{
+    margin: 47px 0;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.btn{
+    padding: 16px 24px;
+    color: white;
+
+font-size: 16px;
+font-weight: 500;
+line-height: 18.75px;
+letter-spacing: 1px;
+border-radius: 50px;
+background: #0A775F;
+border: none;
+}
+
+.hero-img{
+    width: 610px;
+    position: relative;
+}
+
+.katta-img{
+    width: 100%;
+}
+
+.kichik-img{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    animation-name: aylan;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes aylan{
+    from{
+        transform: rotate(odeg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+h2{
+
+font-size: 50px;
+font-weight: 700;
+line-height: 58.59px;
+text-align: center;
+color: #000000;
+margin: 150px;
+}
+
+.h3 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56.25px;
+    text-align: left;    
+display: flex;
+justify-content: center;    
+}
+
+p{
+    font-family: Roboto;
+font-size: 22px;
+font-weight: 400;
+line-height: 34px;
+text-align: left;
+display: flex;
+align-items: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container2{
+    display: flex;
+}
+
+.gap{
+    display: flex;
+    justify-content:end;
+    
+}
+
+
+.mol{
+    background:#F3D7B7 ;
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 1440px;
+height: 160px;
+top: 2598px;
+left: -0px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+ul li{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
